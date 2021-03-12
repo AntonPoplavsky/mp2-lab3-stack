@@ -1,6 +1,0 @@
-﻿  Calculator.cpp
-C:\Users\Anton\Desktop\My\mp2-lab3-stack\Stack\Calculator.cpp(152,10): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
-  Stack.cpp
-  Создание кода...
-C:\Users\Anton\Desktop\My\mp2-lab3-stack\Stack\Calculator.cpp(81): warning C4715: Calculator::Priority: значение возвращается не при всех путях выполнения
-  ConsoleApplication1.vcxproj -> C:\Users\Anton\Desktop\My\mp2-lab3-stack\x64\Debug\Stack.exe
