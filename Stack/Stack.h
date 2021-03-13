@@ -107,7 +107,7 @@ public:
 		return MaxSize;
 	}
 
-	T& operator[](int pos)
+	T& operator[](int pos) //доступ
 	{
 		if (pos < 0 || pos >= MaxSize)
 		{
@@ -116,7 +116,7 @@ public:
 		return mas[pos];
 	}
 
-	bool operator==(const Stack<T>& m) const
+	bool operator==(const Stack<T>& m) const //оператор сравнения
 	{
 		if (MaxSize != m.MaxSize || size!=m.size)
 		{

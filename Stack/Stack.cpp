@@ -10,12 +10,12 @@ int main()
 	setlocale(LC_CTYPE, "Rus");
 	Calculator calc;
 	string str;
-	cout << "Введите арифметическое выражение: ";
+	cout << "Введите выражение: ";
 	cin >> str;
 	calc.SetFormula(str);
-	cout << "Инфиксная форма записи выражения: "<< calc.GetExpression()<< endl;
+	cout << "Инфиксная форма: "<< calc.GetExpression()<< endl;
 	calc.ToPostfix();
-	cout << "Выражение в постфиксной форме: "<< calc.GetPostfix()<< endl;
+	cout << "Постфиксная форма: "<< calc.GetPostfix()<< endl;
 	cout <<"Результат вычисления: " <<calc.CalcPostfix();
 }
 
